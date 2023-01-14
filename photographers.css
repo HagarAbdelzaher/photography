@@ -1,0 +1,42 @@
+#photographersTable {
+    
+    font-size: .9em;
+
+    margin: auto;
+    margin-top: 5em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(185, 221, 221);
+    width: 50em;
+    height: 15em;
+    border-collapse: collapse;
+    border-spacing: 9em;
+    display: table;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+}
+#camera>i
+{
+    font-size: 5rem;
+    color: #333;
+    text-shadow: rgba(0, 0, 0, 0.35) 1px 5px 15px;
+}
+#camera>p
+{
+    font-size: 2rem;
+    text-shadow: rgba(0, 0, 0, 0.35) 1px 5px 15px;
+    
+}
+#camera
+{
+    margin:auto;
+    margin-top:4rem;
+    text-align: center;
+}
+th{
+    color: #4286f4;
+    padding: 1em;
+}
+i{
+    color: #4286f4;
+}

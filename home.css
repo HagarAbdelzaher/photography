@@ -1,3 +1,35 @@
 
   
- 
+
+  #newestImagesDiv{
+    width: 100%;
+    margin-top: 15rem;
+    padding: 1rem;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+
+  .imageDiv{
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: inline-block;
+    margin-left: 0.5rem;
+  }
+  .imageInnerDiv>img , .imageInnerDiv{
+   height: 20rem;
+   width: 100%;
+  }
+  .DescriptionDiv{
+    padding: 0.5rem;
+    
+  }
+  .DescriptionDiv>span
+  {
+    font-weight: bold;
+    color: #0064bd;
+    text-align: center;
+    display: block;
+
+
+  }

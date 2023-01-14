@@ -1,0 +1,74 @@
+
+#formDiv
+{
+  margin: auto;
+  margin-top: 1em;
+  width:30em;
+  height: 35em;
+  padding:8em;
+  background-color: rgb(185, 221, 221);
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+}
+textarea{
+    resize: none;
+    width: 15em;
+}
+h1 {
+    text-align:center;
+    font-size:15;
+    }
+.icon {
+font-size: 3em;
+display: flex;
+justify-content: center;
+}
+label {
+    color:#0095ff;
+    font-weight: bold;
+    width: 3em;
+    float: left;
+    text-align: left;
+  }
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+
+button {
+  margin-top: 3em;
+  background-color: #0095ff;
+  border : 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  padding: 8px .8em;
+  /* position: relative; */
+  text-align: center;
+}
+
+button:hover,
+button:focus {
+  background-color: #07c;
+}
+
+button:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+
+
+

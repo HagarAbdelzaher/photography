@@ -8,7 +8,6 @@ form {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 35em;
     margin: auto;
-    height: 52rem;
     padding: 1.2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -21,7 +20,20 @@ form {
     width: 25em;
 
 }
-
+#radiolabel
+{
+  display: inline-block;
+  
+}
+#radioDiv
+{
+  text-align:left;
+ 
+}
+input[type='radio']
+{
+  width:10%;
+}
 input {
     width: 100%;
     padding: 1rem 0.5rem;
@@ -29,6 +41,10 @@ input {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+}
+input [type=radio]
+{
+    display: inline;
 }
 
 .icon {

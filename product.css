@@ -1,0 +1,95 @@
+ 
+ 
+ .productDiv{
+    width:70%;
+    height: 25rem;
+    margin:auto;
+    /* background-color: blue; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 4rem;
+    text-align: center;
+    background-image: linear-gradient( #eee,rgba(136, 226, 226, 0.993) );
+    padding: 4rem;
+    border-radius:2rem;
+ }
+  .imageDiv{
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: inline-block;
+    float: left;
+  }
+  .imageInnerDiv>img {
+   height: 50%;
+   width: 100%;
+  }
+  .imageInnerDiv>p {
+    font-weight: bold;
+
+   }
+  .DescriptionDiv{
+    display: inline-block;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    padding: 0.5rem;
+    text-align: left;
+    height: 50%;
+    width: 40%;
+    /* background-color:red; */
+    
+  }
+  .DescriptionDiv>span
+  {
+    font-weight: bold;
+    color: #0064bd;
+    text-align: left;
+    display: block;
+    font-size: larger;
+   }
+
+
+
+
+   ul {
+    list-style-type: none;
+    float:right;
+  }
+  #logo{
+      
+    width: 3rem;
+    display: inline-block;
+    vertical-align: top;  
+  }
+  #name{
+    vertical-align: top;
+   display: inline-block;
+   font-size: 2.2rem;
+   color:  rgb(185, 221, 221);
+  }
+  #brand{
+    margin-top: 0.4rem;
+    float:left;
+    vertical-align: middle;
+    height: 3rem;  
+  }
+  #listDiv{
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.877); 
+     
+    overflow: hidden;
+  }
+  li{
+    display: inline-block;
+  }
+  li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color:  rgb(185, 221, 221);
+  }

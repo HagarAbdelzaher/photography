@@ -1,18 +1,18 @@
 
-  
-
   #newestImagesDiv{
     width: 100%;
-    margin-top: 15rem;
+    margin-top: 3rem;
     padding: 1rem;
     text-align: center;
     box-sizing: border-box;
+    /* box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 20px; */
+    background-image: linear-gradient( #eee,rgba(136, 226, 226, 0.993) );
   }
-
 
   .imageDiv{
     width: 20%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #eee;
     display: inline-block;
     margin-left: 0.5rem;
   }
@@ -30,6 +30,95 @@
     color: #0064bd;
     text-align: center;
     display: block;
+  }
 
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(#1f0566, #2f63c5, #00c2cb);
+    text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+  .imageSlides {
+    display: none
+  }
+   
+  img {
+    margin: auto;
+    display: block;
+    width: 100%;
+  }
+   
+  /* Our main images-slideshow container */
+  .images-slideshow {
+    width:40%;
+    /* height: 10%; */
+    max-height: 10%;
+    position: relative;
+    margin: auto;
+    margin-top: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
 
   }
+   
+  /*Style for ">" next and "<" previous buttons */
+  .slider-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 8px 16px;
+    margin-top: -22px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+  }
+   
+  /* setting the position of the previous button towards left */
+  .previous {
+    left: 2%;
+  }
+   /* setting the position of the next button towards right */
+  .next {
+    right: 2%;
+  }
+   
+  /* On hover, adding a background color */
+  .previous:hover,
+  .next:hover {
+    color: rgb(255, 253, 253);
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

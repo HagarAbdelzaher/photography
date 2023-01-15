@@ -1,68 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <script src="home.js" defer></script>
     <link rel="stylesheet" href="project.css">
     <link rel="stylesheet" href="home.css">
 </head>
+
 <body>
-    
-    <div id = "listDiv">
-    <ul>
-        <li><a class="active" href="home.html">Home</a></li>
-        <li><a href="contact.html">Contact us</a></li>
-        <li><a href="photographers.html">Photographers</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a href="register.html">Register</a></li>
-      </ul>
+
+    <div id="listDiv">
+        <div id="brand">
+            <div id="logo">
+                <img src="images/logoo.png" alt="logo" >
+            </div>
+            <div id="name">
+                <span> Pixels</span>
+            </div>
+        </div>
+        <ul>
+            <li><a class="active" href="home.html">Home</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="photographers.html">Photographers</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
     </div>
+
+
+    <div class="images-slideshow">
+        <div class="imageSlides fade">
+            <img src="images/nile.jpg">
+        </div>
+        <div class="imageSlides fade">
+            <img src="images/bed.jpg">
+        </div>
+        <div class="imageSlides fade">
+            <img src="images/nc.jpg">
+        </div>
+        <div class="imageSlides fade">
+            <img src="images/hand.jpg">
+        </div>
+        <div class="imageSlides fade">
+            <img src="images/clouds.jpg">
+        </div>
+        <div class="imageSlides fade">
+            <img src="images/sky.jpeg">
+        </div>
+        <div class="imageSlides fade">
+            <img src="images/coffee.jpeg">
+        </div>
+        <div class="imageSlides fade">
+            <img src="images/car.jpeg">
+        </div>
+        <div class="imageSlides fade">
+            <img src="images/alex.jpeg">
+        </div>
+        <a class="slider-btn previous" onclick="setSlides(-1)">❮</a>
+        <a class="slider-btn next" onclick="setSlides(1)">❯</a>
+    </div>
+    
+
     <div id="newestImagesDiv">
-
-        <div class="imageDiv">
-            <div class="imageInnerDiv">
-            <img src="images/man.jpg" alt="Clouds" >
-            </div>
-            <div class="DescriptionDiv">
-            <span>Black & White</span>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. unde qui voluptates beatae ad optio, repudiandae architecto aut?</p>
-            </div>
+        <div class = "heading">
+            <h2> Newest Releases </h2>
         </div>
 
         <div class="imageDiv">
             <div class="imageInnerDiv">
-            <img src="images/clouds2.jpeg" alt="moon" >
+                <img src="images/man.jpg" alt="Clouds">
             </div>
             <div class="DescriptionDiv">
-            <span>Far Away</span>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. unde qui voluptates beatae ad optio, repudiandae architecto aut?</p>
+                <span>Black & White</span>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. unde qui voluptates beatae ad optio,
+                    repudiandae architecto aut?</p>
             </div>
         </div>
 
         <div class="imageDiv">
             <div class="imageInnerDiv">
-            <img src="images/moon.jpg" alt="moon" >
+                <img src="images/clouds2.jpeg" alt="moon">
             </div>
             <div class="DescriptionDiv">
-            <span>Mars</span>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. unde qui voluptates beatae ad optio, repudiandae architecto aut?</p>
+                <span>Far Away</span>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. unde qui voluptates beatae ad optio,
+                    repudiandae architecto aut?</p>
             </div>
         </div>
 
-         <div class="imageDiv">
+        <div class="imageDiv">
             <div class="imageInnerDiv">
-            <img src="images/plant.jpg" alt="moon" >
+                <img src="images/moon.jpg" alt="moon">
             </div>
             <div class="DescriptionDiv">
-            <span>Green</span>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. unde qui voluptates beatae ad optio, repudiandae architecto aut?</p>
+                <span>Mars</span>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. unde qui voluptates beatae ad optio,
+                    repudiandae architecto aut?</p>
             </div>
         </div>
 
-       
+        <div class="imageDiv">
+            <div class="imageInnerDiv">
+                <img src="images/plant.jpg" alt="moon">
+            </div>
+            <div class="DescriptionDiv">
+                <span>Green</span>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. unde qui voluptates beatae ad optio,
+                    repudiandae architecto aut?</p>
+            </div>
+        </div>
+
+
 
     </div>
 </body>
+
 </html>

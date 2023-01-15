@@ -19,6 +19,7 @@ img {
 #logo{
   width: 3rem;
   display: inline-block;
+
   /* vertical-align: top;   */
 }
 #name{
@@ -28,6 +29,7 @@ img {
  color: rgb(185, 221, 221);
 }
 #brand{
+  margin-left:0.5rem;
   margin-top: 0.4rem;
   float:left;
   /* vertical-align: middle; */

@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="project.css">
-    <!-- <link rel="stylesheet" href="home.css"> -->
-    <link rel="stylesheet" href="Register.css">
+    <link rel="stylesheet" href="/css/project.css">
+    <link rel="stylesheet" href="/css/Register.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Register</title>
+    <script src="home.js" defer></script>
+    <title>Contact us</title>
 </head>
 <body id = "body">
   <div id="listDiv">
+  <a href="home.html">
     <div id="brand">
       <div id="logo">
           <img src="images/logoo.png" alt="logo" >
@@ -23,7 +24,9 @@
           <span> Pixels</span>
       </div>
   </div>
-    <ul>
+</a>
+  <i onclick='showMenu()' class="fa-solid fa-bars menu"></i>
+  <ul id="ullist">
       <li><a href="home.html">Home</a></li>
       <li><a class="active" href="contact.html">Contact us</a></li>
       <li><a href="photographers.html">Photographers</a></li>
@@ -40,12 +43,11 @@
       <div class="formcontainer" style="height: 25em;">
       <div class="container">
         <label for="email"><strong>Email:</strong></label>
-        <input type="email" placeholder="Enter Email" name="uname" required>
+        <input type="email" name="email" required>
         <br>
         <label for="msg"><strong>Message:</strong></label>
-        <input name ="msg" type="text" placeholder="Message" rows="9" required>
+        <textarea id="message" rows="4"></textarea>
       </div>
-
       <button type="submit"><strong>Send</strong></button>
       
     </form>

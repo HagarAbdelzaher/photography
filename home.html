@@ -7,13 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <script src="home.js" defer></script>
-    <link rel="stylesheet" href="project.css">
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="/css/project.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-
     <div id="listDiv">
+        <a href="home.html">
         <div id="brand">
             <div id="logo">
                 <img src="images/logoo.png" alt="logo" >
@@ -22,7 +25,9 @@
                 <span> Pixels</span>
             </div>
         </div>
-        <ul>
+    </a>
+        <i onclick='showMenu()' class="fa-solid fa-bars menu"></i>
+        <ul id="ullist">
             <li><a class="active" href="home.html">Home</a></li>
             <li><a href="contact.html">Contact us</a></li>
             <li><a href="photographers.html">Photographers</a></li>
@@ -129,6 +134,8 @@
         <p><a href="mailto:hege@example.com">Cairo, Egypt</a></p>
       </footer>
     </div>
+
+   
 </body>
 
 

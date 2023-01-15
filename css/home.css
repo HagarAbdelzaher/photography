@@ -15,10 +15,12 @@
     background-color: #eee;
     display: inline-block;
     margin-left: 0.5rem;
+    border-radius: 1rem;
   }
   .imageInnerDiv>img , .imageInnerDiv{
    height: 20rem;
    width: 100%;
+   border-radius: 1rem;
   }
   .DescriptionDiv{
     padding: 0.5rem;
@@ -36,6 +38,10 @@
   {
     
     text-decoration:none;
+  }
+  .menu{
+    position:absolute;
+    text-align:right;
   }
   
 
@@ -64,22 +70,13 @@
   .images-slideshow {
     width:40%;
      height: 10%; 
-    /* max-height: 10%; */
     position: relative;
     margin: auto;
     margin-top: 3rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
-    border-radius: 1rem;
-   
+    
   }
-   
-   
-  /* On hover, adding a background color */
-  .previous:hover,
-  .next:hover {
-    color: rgb(255, 253, 253);
-    background-color: rgba(0, 0, 0, 0.8);
-  }
+  
   .footerDiv{
   
     background-color: #4a4a4a;
@@ -100,10 +97,24 @@
   footer>p{
     display: inline;
     font-weight: light;
-    /* margin-left:2rem; */
+     margin-left:2rem; 
   }
+  @media (max-width:700px)
+{
+  .imageDiv{
+    width:100%
+  }
+  .footerDiv{
+    display: block;
+    height: 8rem;
+    text-align:center;
+  }
+  footer>p>a , footer>p{
+    display: block;
 
-
+  }
+  
+}
 
 
 
